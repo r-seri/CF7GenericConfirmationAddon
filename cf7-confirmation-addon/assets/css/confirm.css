@@ -1,0 +1,120 @@
+/* 基本のセットのみ　適宜追加してください */
+.confirm_area,
+.thanks_area {
+    display: none;
+}
+
+.wpcf7-response-output {
+    display: none;
+}
+
+.confirm_button,
+.back_button,
+.final_submit {
+    background-color: var(--vk-color-primary);
+    color: #333;
+    border: none;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    cursor: pointer;
+}
+.confirm_button{
+    background-color: var(--vk-color-primary);
+    color: #333;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: 50%;
+    display: block;
+    margin: 4rem auto 2rem;
+    border-radius: 0;
+}
+.confirm_button[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.confirm_area p {
+    margin-bottom: 0.75em;
+}
+
+/*cssはお任せで*/
+/* 確認画面全体 */
+.confirm_area {
+    background: #f9f9f9;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+/* 各行の余白 */
+.confirm-row {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+/* ラベル列 */
+.confirm-row .label {
+    font-weight: 600;
+    color: #333;
+}
+
+/* 値列 */
+.confirm-row .value {
+    color: #555;
+}
+
+/* 「送信する」ボタン */
+.submitBtn {
+    text-align: right;
+    margin-top: 1.5rem;
+}
+
+.submitBtn .wpcf7-form-control.wpcf7-submit {
+    background-color: var(--vk-color-primary);
+    color: #333;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: 50%;
+    display: block;
+    margin: 4rem auto 2rem;
+    border-radius: 0;
+}
+
+.submitBtn .wpcf7-form-control.wpcf7-submit:hover {
+    background-color: var(--vk-color-primary-dark)
+}
+
+/* 「戻る」ボタン */
+.back_button {
+    display: block;
+    background-color: #777777;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: 50%;
+    margin: 0 auto 4rem;
+}
+
+.back_button:hover {
+    opacity: 0.8;
+}
+
+/* 完了画面 */
+.thanks_area {
+    background: #e9f7ef;
+    border: 1px solid #c3e6cb;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.thanks_area .ttl {
+    color: #155724;
+    margin-bottom: 0.5rem;
+}
