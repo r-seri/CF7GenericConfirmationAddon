@@ -100,13 +100,3 @@ cf7-confirm-addon/
   - `document.addEventListener('wpcf7mailsent', …)` でリダイレクト先を変更  
 
 ---
-
-## サポート
-
-不具合報告・改善要望などは GitHub Issues までお寄せください。  
-
----
-
-## ライセンス
-
-MIT License  
