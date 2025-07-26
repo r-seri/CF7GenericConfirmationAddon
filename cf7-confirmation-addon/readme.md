@@ -40,18 +40,16 @@ Contact Form 7 のフォームに「入力内容確認画面」と「送信完�
 
 ### 1. フォームマークアップ例
 ```html
-<form class="wpcf7-form">
-  <div class="input_area">
-    <label for="your-name">お名前（漢字）</label>
-    [text* your-name id:your-name placeholder "山田 太郎"]
-    <!-- 必須項目は aria-required="true" が自動付与されます -->
+<div class="input_area">
+  <label for="your-name">お名前（漢字）</label>
+  [text* your-name id:your-name placeholder "山田 太郎"]
+  <!-- 必須項目は aria-required="true" が自動付与されます -->
 
-    <label for="your-mail">メールアドレス</label>
-    [email* your-mail id:your-mail placeholder "example@domain.com"]
+  <label for="your-mail">メールアドレス</label>
+  [email* your-mail id:your-mail placeholder "example@domain.com"]
 
-    <input type="button" class="confirm_button" value="確認する" disabled>
-  </div>
-</form>
+  <input type="button" class="confirm_button" value="確認する" disabled>
+</div>
 ```
 
 ### 2. 確認画面への切り替え
