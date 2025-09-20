@@ -3,7 +3,7 @@
 Plugin Name: CF7 Generic Confirmation Addon
 Description: ContactForm7の確認画面追加用
 Version:     1.0
-Author:      seri
+Author:      
 */
 
 if ( ! defined( 'ABSPATH' ) ) exit;
